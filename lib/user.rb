@@ -1,8 +1,9 @@
 class User
-attr_accessor :first, :last
 
-def initialize(first, last)
-  @first = first
-  @last = last
-end
+  def initialize
+    @first_name = first
+    @last_name = last
+    @knowledge = []
+  end
+
 end
